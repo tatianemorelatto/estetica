@@ -1,0 +1,51 @@
+
+div.texto-micro{
+    display: inline-block;
+    max-width: 286px;
+    font-family: "Forum", Sans-serif;
+    font-weight: bolder;    
+    margin-bottom: 100px;
+    margin-top: 10px;
+    line-height: 25px;  /* espaçamento entre a linha de cima e baixo  */
+    color: #3D3D3D;
+}
+
+
+
+div.texto-corporal{
+    display: inline-block;
+    font-family: "Forum", Sans-serif;
+    max-width: 394px;
+    text-align: center;
+    margin-bottom: 100px;
+    margin-top: 10px;
+    font-weight: bolder; 
+    line-height: 25px;  /* espaçamento entre a linha de cima e baixo  */
+    color: #3D3D3D;
+}
+
+div.texto-facial{
+    display: inline-block;
+    font-family: "Forum", Sans-serif;
+    max-width: 290px;
+    text-align: center;
+    margin-bottom: 100px;
+    margin-top: 10px;
+    font-weight: bolder; 
+    line-height: 25px;  /* espaçamento entre a linha de cima e baixo  */
+    color: #3D3D3D;
+}
+
+
+div.texto-laser{
+    display: inline-block;
+    font-family: "Forum", Sans-serif;
+    max-width: 376px;
+    text-align: center;
+    margin-bottom: 100px;
+    margin-top: 10px;
+    font-weight: bolder; 
+    line-height: 25px;  /* espaçamento entre a linha de cima e baixo  */
+    color: #3D3D3D;
+}
+

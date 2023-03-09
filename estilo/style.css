@@ -1,0 +1,211 @@
+@charset "UTF-8";
+
+
+:root{
+
+    --cor0: #BDAAA6;
+    --cor1: #543B36;
+    --cor2: #5B4654;
+    --cor3: #9F837F;
+    --cor4: #936251;
+    --cor5: #682C24;
+
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Roboto", sans-serif;
+  }
+
+
+body{
+    background-color: white;
+    
+    
+}
+
+header{
+    min-height: 170px;
+}
+
+header > img {
+    width: 10%;
+    float: left;
+    margin-top: 10px;
+    margin-left: 60px;
+}
+
+header >nav {
+    display: inline-block;
+    width: 1080px;
+    text-align: center;
+    font-size: 1.2em;
+    border-bottom: 100px;
+    margin-top: 100px;
+}
+
+nav > a:hover{
+
+    background-color: var(--cor4);
+    color: white;
+    
+}
+
+nav > a{
+    color: black;
+    padding: 10px;
+    text-decoration: none;
+    transition-duration: .5s;
+}
+
+
+main{
+    min-width: 300px;
+    max-width: 1920px;
+   
+}
+
+main img {
+    width: 100%;
+    
+}
+
+
+section > h1 {
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    color: #3D3D3D;
+    font-size: 2em;
+}
+
+div{
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
+
+
+div.imagens_procedimentos{
+    display: inline-block;
+    margin-bottom: 20px;
+    
+}
+
+div > img{
+    width: 60%;
+    border-style: solid;
+    border-color: var(--cor5);
+    border-radius: 100%;
+    margin-right: 100px;
+    margin-left: 50px;
+    
+     
+}
+
+
+article p{
+    color: var(--cor5);
+    text-align: center;
+    font-family: "Forum", Sans-serif;
+    font-weight: 400;   
+    margin-bottom: 100px;
+    margin-top: 10px;
+    line-height: 25px; /* espaçamento entre a linha de cima e baixo  */
+    
+}
+
+article span{
+    
+    font-weight: bolder;      
+    color: #3D3D3D;
+    
+}
+
+article div{
+    display: inline-block;
+    text-align: center;
+}
+
+div.texto-micro{
+   
+    max-width: 286px;
+    
+}
+
+
+div.texto-corporal{
+    
+    max-width: 394px;
+    
+}
+
+div.texto-facial{
+    
+    max-width: 290px
+    
+}
+
+
+div.texto-laser{
+    
+    max-width: 374px;
+}
+
+
+
+div#clinica>img{
+    max-width: 36%;
+    display: inline-block;
+    border-radius: 5px;
+    border-style: none;
+    float: left;
+    padding-bottom: 20px;
+    
+    
+     
+}
+
+div.paragrafo h2{
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 2em;
+}
+
+div.paragrafo{
+    padding-bottom: 120px;
+    text-align: center;
+    color: aliceblue;
+    padding-top: 40px; 
+    background-color: var(--cor4);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.541);
+    margin-bottom: 20px;
+    
+}
+
+section.final{
+    min-height: 200px;
+    
+
+}
+
+h2.sub-final{
+    text-align: center;
+    margin-top: 60px;
+    padding-bottom: 60px;
+    font-size: 2em;
+    color: #3D3D3D;
+    
+}
+
+footer{
+
+    background-color: var(--cor4);
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+
+
